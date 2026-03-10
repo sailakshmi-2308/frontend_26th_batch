@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .login-container {
+        width: 35%;
+        border: 2px solid black;
+        padding: 30px;
+        margin: auto;
+        margin-top: 5%;
+      }
+      .login-container h1 {
+        text-align: center;
+      }
+      .form-field{
+        margin-bottom: 15px;
+      }
+      .input-field {
+        margin-top: 10px;
+        border-bottom: 1px solid black;
+        padding-bottom:15px
+      }
+      .input-field input {
+        border: none;
+        outline: none;
+      }
+    .forgot{
+        text-align: right;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="login-container">
+      <h1>Login</h1>
+      <div class="form-field">
+        <label for="">username</label>
+
+        <div class="input-field">
+          <i class="fa-regular fa-user"></i>
+          <input type="text" placeholder="Type your username" />
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label for="">password</label>
+        <div class="input-field">
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" placeholder="Type your password" />
+        </div>
+      </div>
+<div class="form-field forgot">
+      <a href="">forgot password?</a>
+</div>
+
+<div class="form-field">
+      <button>LOGIN</button>
+</div>
+      <div class="form-field">
+        <p>Or signup using</p>
+        <div>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-google"></i>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <p>Or signup using</p>
+        <a href="">Sign Up</a>
+      </div>
+    </div>
+  </body>
+</html>
