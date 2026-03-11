@@ -12,12 +12,17 @@
       referrerpolicy="no-referrer"
     />
     <style>
+      body{
+        background: linear-gradient(to left,#4DCAE3, #EE31FE);
+      }
       .login-container {
         width: 35%;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         padding: 30px;
         margin: auto;
         margin-top: 5%;
+        background-color: white;
+        border-radius: 10px;
       }
       .login-container h1 {
         text-align: center;
@@ -37,6 +42,53 @@
     .forgot{
         text-align: right;
     }
+    .forgot a{
+      color:gray
+    }
+
+    a{
+text-decoration: none;
+    }
+
+    .form-field button{
+      /* background-color:#B53811; */
+      background: linear-gradient(to left,#4DCAE3, #EE31FE);
+      color:white;
+      width:100%;
+      padding:13px;
+      border-radius: 999px;
+      border:none
+      
+    }
+
+    .form-center{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .social-media-links i{
+      /* background-color: #B53811; */
+      border-radius: 50%;
+      padding:15px;
+      color:white
+    }
+
+    .fa-facebook-f{
+      background-color: #385B90;
+    }
+.fa-twitter{
+background-color: #0DA1F4;
+}
+.fa-google{
+  background-color:#E74231 ;
+}
+.sign-up{
+  text-align: center;
+  margin-top: 70px;
+}
+
+
+
     </style>
   </head>
   <body>
@@ -65,16 +117,16 @@
 <div class="form-field">
       <button>LOGIN</button>
 </div>
-      <div class="form-field">
+      <div class="form-field form-center">
         <p>Or signup using</p>
-        <div>
+        <div class="social-media-links">
           <i class="fa-brands fa-facebook-f"></i>
           <i class="fa-brands fa-twitter"></i>
           <i class="fa-brands fa-google"></i>
         </div>
       </div>
 
-      <div class="form-field">
+      <div class="form-field sign-up">
         <p>Or signup using</p>
         <a href="">Sign Up</a>
       </div>
