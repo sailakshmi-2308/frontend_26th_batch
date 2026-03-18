@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+        .navbar{
+            display:flex;
+            justify-content:space-between;
+               /* justify-content:space-evenly;
+               justify-content:space-around; */
+            align-items:center;
+            border:2px solid black;
+            background-color: white;
+            padding:8px 40px
+        }
+        .menu{
+            display:flex;
+            gap:25px;
+
+        }
+        .download{
+            display:flex;
+            gap:20px;
+            align-items: center;
+        }
+        .download a{
+            text-decoration: none;
+            color:black
+        }
+        .download button{
+            background-color: #002970;
+            color:white;
+            /* padding:10px 20px; */
+            padding:8px 15px 8px 1px;
+            /* padding:10px 20px 10px 0px; */
+            border-radius:999px;
+            /* margin-left:10px */
+            border:none
+        }
+        /* .download button .fa-circle-user{
+            font-size: 1rem;
+        } */
+
+        .download button .fa-user{
+            background-color: #00BAF2;
+            padding:10px;
+            border-radius:50%;
+            margin-right:10px
+        }
+        .dropdown{
+            display:none;
+            position:absolute;
+            top:60px;
+            background-color: white;
+            padding:20px;
+            width:160px;
+            border-radius:15px
+            
+        }
+        .menu li{
+position:relative
+        }
+
+        .dropdown li{
+            padding:10px 0px;
+          
+        }
+
+        .dropdown li a{
+              text-decoration:none
+        }
+
+        .menu li:hover .dropdown{
+            display:block
+        }
+    </style>
+  </head>
+  <body>
+    <header class="navbar">
+      <div>
+        <img
+          src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logo_new.svg"
+          alt=""
+        />
+      </div>
+
+      <ul type="none" class="menu">
+        <li>Recharge & Bills
+
+            <ul class="dropdown" type="none">
+                <li><a href="">Mobile Recharge</a></li>
+                <li><a href="">Electricity Bill</a></li>
+                <li><a href="">DTH Recharge</a></li>
+                <li><a href="">Municipal bill</a></li>
+                <li><a href="">Mobile Recharge</a></li>
+                <li><a href="">Mobile Recharge</a></li>
+                 <li><a href="">Municipal bill</a></li>
+                <li><a href="">Mobile Recharge</a></li>
+                <li><a href="">Mobile Recharge</a></li>
+            </ul>
+        </li>
+       
+        <li>Ticket Booking</li>
+        <li>Payments & Services</li>
+        <li>Paytm for Business</li>
+        <li>Company</li>
+      </ul>
+
+      <div class="download">
+        <a href=""><i class="fa-solid fa-download"></i>Download App</a>
+        <button><i class="fa-solid fa-user"></i> Sign In</button>
+      </div>
+    </header>
+  </body>
+</html>
